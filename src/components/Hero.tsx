@@ -4,7 +4,7 @@ import React from "react";
 import { ArrowRight, FileText } from "lucide-react";
 import MatrixText from "./ui/MatrixText";
 import ShinyText from "./ui/ShinyText";
-import ASMRStaticBackground from "./ui/ASMRStaticBackground";
+import Lightfall from "./ui/Lightfall";
 import { scrollToSection } from "@/lib/scroll";
 import { useTheme } from "./ThemeProvider";
 
@@ -35,9 +35,28 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-32 sm:pt-36 md:pt-28 pb-12 sm:pb-16"
     >
-      {/* Background ASMR Static Animation */}
+      {/* Background Lightfall Rain Animation */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <ASMRStaticBackground />
+        <Lightfall
+          colors={isDark ? DARK_FALLING_COLORS : LIGHT_FALLING_COLORS}
+          backgroundColor={isDark ? "#000000" : "#faf8f5"}
+          speed={isMobile ? 0.45 : 0.35}
+          streakCount={isMobile ? 5 : 2}
+          streakWidth={isMobile ? 1.25 : 0.85}
+          streakLength={isMobile ? 1.1 : 0.9}
+          glow={isMobile ? 0.95 : 0.65}
+          density={isMobile ? 0.55 : 0.35}
+          twinkle={0.35}
+          zoom={isMobile ? 1.9 : 2.2}
+          backgroundGlow={0}
+          opacity={isDark ? (isMobile ? 0.85 : 0.65) : (isMobile ? 0.75 : 0.55)}
+          mouseInteraction={true}
+          mouseStrength={0.4}
+          mouseRadius={0.45}
+          mouseDampening={0.15}
+          lightMode={!isDark}
+          dpr={isMobile ? 1.0 : 1.25}
+        />
       </div>
 
       {/* Decorative Gradients for Visual Glow */}
