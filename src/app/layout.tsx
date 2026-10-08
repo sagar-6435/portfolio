@@ -16,30 +16,30 @@ const serif = Playfair_Display({
 export const metadata: Metadata = {
   title: "Sagar Kanda | Portfolio",
   description:
-    "Professional portfolio of Sriram Gandrothu, ECE Software Engineer from SRKR building premium, high-performance web experiences.",
+    "Professional portfolio of Sagar Kanda, Artificial Intelligence and Data Science Student from SRKR building premium, high-performance web experiences.",
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Sriram Gandrothu | Portfolio",
+    title: "Sagar Kanda | Portfolio",
     description:
-      "Professional portfolio of Sriram Gandrothu, ECE Software Engineer from SRKR building premium, high-performance web experiences.",
+      "Professional portfolio of Sagar Kanda, Artificial Intelligence and Data Science Student from SRKR building premium, high-performance web experiences.",
     images: [
       {
-        url: "https://res.cloudinary.com/djizcuofs/image/upload/v1784918218/sg_ixm93a.png",
+        url: "https://drive.google.com/file/d/1dOP9b8QdRqYT2TUuX0WLChTVY_2F_S12/view?usp=sharing",
         width: 1200,
         height: 630,
-        alt: "Sriram Gandrothu | Portfolio Preview",
+        alt: "Sagar Kanda | Portfolio Preview",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sriram Gandrothu | Portfolio",
+    title: "Sagar Kanda | Portfolio",
     description:
-      "Professional portfolio of Sriram Gandrothu, ECE Software Engineer from SRKR building premium, high-performance web experiences.",
-    images: ["https://res.cloudinary.com/djizcuofs/image/upload/v1784918218/sg_ixm93a.png"],
+      "Professional portfolio of Sagar Kanda, Artificial Intelligence and Data Science Student from SRKR building premium, high-performance web experiences.",
+    images: ["https://drive.google.com/file/d/1dOP9b8QdRqYT2TUuX0WLChTVY_2F_S12/view?usp=sharing"],
   },
 };
 

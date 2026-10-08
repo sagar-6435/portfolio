@@ -72,7 +72,7 @@ export default function Footer() {
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/sriramgandrothu/",
+      href: "https://www.linkedin.com/in/sagarkanda/",
       icon: <LinkedInIcon />,
     },
     {

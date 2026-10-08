@@ -50,7 +50,7 @@ export async function POST(request: Request) {
       },
     });
 
-    // Elegant HTML template matching Sriram's portfolio theme
+    // Elegant HTML template matching Sagar's portfolio theme
     const htmlTemplate = `
       <!DOCTYPE html>
       <html>
