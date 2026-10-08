@@ -126,7 +126,7 @@ export default function Footer() {
 
         {/* Copyright (At the very bottom) */}
         <div className="text-[11px] text-foreground/40 mt-2">
-          <p>&copy; {currentYear === 2026 ? "2026" : `2026-${currentYear}`} Sriram Gandrothu. All rights reserved.</p>
+          <p>&copy; {currentYear === 2026 ? "2026" : `2026-${currentYear}`} Sagar Kanda. All rights reserved.</p>
         </div>
       </div>
 
