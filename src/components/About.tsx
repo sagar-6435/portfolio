@@ -110,17 +110,11 @@ export default function About() {
             </h3>
 
             <p className="text-foreground/75 leading-relaxed mb-6 text-center md:text-left">
-              I am a dedicated software engineer specializing in Next.js, React,
-              and modern full-stack technologies. With a strong foundation in
-              development and designing, I build platforms that are not only
-              performant and stable but also visually engaging.
+              Motivated Artificial Intelligence and Data Science student with a strong interest in Web and Mobile Application Development. Hands-on experience in building responsive web applications and mobile apps using JavaScript, React.js, Node.js, Express.js, MongoDB, Flutter, and Git/GitHub. Enjoy developing practical, user-friendly applications and solving real-world problems through technology.
             </p>
 
             <p className="text-foreground/75 leading-relaxed mb-6 text-center md:text-left">
-              My design philosophy centers on clean structure, premium
-              typography, and subtle micro-interactions that make interfaces
-              feel responsive and alive. I believe web portfolios should be
-              classic, classic, and completely unforgettable.
+              Passionate about learning new technologies and improving my skills in full-stack development and mobile application development. Possess a strong problem-solving mindset, adaptability, and a continuous-learning attitude, with a goal of building scalable and innovative applications while growing as a Software Developer.
             </p>
 
             {/* Special Studio Redirect */}

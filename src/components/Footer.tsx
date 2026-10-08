@@ -66,8 +66,8 @@ export default function Footer() {
 
   const socialLinks = [
     {
-      name: "SwiftProject",
-      href: "https://swiftproject.in/",
+      name: "The Webgenixx",
+      href: "https://thewebgenixx.in/",
       icon: <Globe className="w-4 h-4" />,
     },
     {
@@ -77,17 +77,17 @@ export default function Footer() {
     },
     {
       name: "Instagram",
-      href: "https://instagram.com/sriramgandrothu?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
+      href: "https://www.instagram.com/sagarrrr._.__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
       icon: <InstagramIcon />,
     },
     {
       name: "GitHub",
-      href: "https://github.com/SriramGandrothu",
+      href: "https://github.com/sagar-6435",
       icon: <GitHubIcon />,
     },
     {
       name: "WhatsApp",
-      href: "https://wa.me/7842713943",
+      href: "https://wa.me/889753645",
       icon: <WhatsAppIcon />,
     },
   ];
@@ -101,10 +101,10 @@ export default function Footer() {
         {/* Branding & Logo */}
         <div className="flex items-center gap-2.5">
           <span className="flex p-2 h-8.5 w-8.5 items-center justify-center rounded-lg bg-primary text-background font-serif text-sm font-bold shadow-sm">
-            SG
+            Sk
           </span>
           <span className="font-serif text-base font-bold tracking-tight text-foreground">
-            Sriram Gandrothu
+            Sagar Kanda
           </span>
         </div>
 

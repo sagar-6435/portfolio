@@ -24,7 +24,7 @@ export default function TextLoopBanner({ className = "" }: TextLoopBannerProps) 
     >
       <div className="w-full">
         <TextLoop
-          text="Sagar Kanda ✦ Creative Software Engineer ✦ Web Architect ✦ Next.js & React Specialist ✦ Interactive UI/UX"
+          text="Sagar Kanda ✦ Software Engineer ✦ Web Architect ✦ React & Next.js Developer ✦ Interactive UI/UX ✦ App Developer" 
           shape="wave"
           speed={60}
           direction="forward"

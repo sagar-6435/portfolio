@@ -131,8 +131,8 @@ export default function Contact() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[10px] uppercase tracking-wider font-bold text-foreground/50">Email me</span>
-                  <a href="mailto:sriram@swiftproject.in" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">
-                    sriram@swiftproject.in
+                  <a href="mailto:kandasagar2006@gmail.com" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">
+                    kandasagar2006@gmail.com
                   </a>
                 </div>
               </div>
@@ -143,9 +143,9 @@ export default function Contact() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-[10px] uppercase tracking-wider font-bold text-foreground/50">Call me</span>
-                  <a href="tel:7842713943" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">
-                    +91 78427 13943
+                  <a href="tel:8897536435"><span className="text-[10px] uppercase tracking-wider font-bold text-foreground/50">Call me</span></a>
+                  <a href="tel:8897536435" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">
+                    +91 88975 36435
                   </a>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function Contact() {
                 <div className="flex flex-col">
                   <span className="text-[10px] uppercase tracking-wider font-bold text-foreground/50">Based in</span>
                   <span className="text-sm font-semibold text-foreground">
-                    Bangalore, India
+                    Bhimavaram, India
                   </span>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function Contact() {
               <h4 className="text-xs uppercase tracking-widest font-bold text-foreground/45 mb-4">Connect with me</h4>
               <div className="flex items-center gap-3">
                 <a
-                  href="https://github.com/SriramGandrothu"
+                  href="https://github.com/sagar-6435"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-xl border border-card-border bg-card/65 text-foreground hover:bg-foreground hover:text-background hover:border-foreground transition-all duration-300 hover:scale-105"
@@ -178,7 +178,7 @@ export default function Contact() {
                   <GithubIcon className="w-4 h-4" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/sriramgandrothu"
+                  href="https://www.linkedin.com/in/sagar-kanda/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-xl border border-card-border bg-card/65 text-foreground hover:bg-foreground hover:text-background hover:border-foreground transition-all duration-300 hover:scale-105"
@@ -207,7 +207,7 @@ export default function Contact() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="Sriram Gandrothu"
+                      placeholder="Sagar Kanda"
                       className="w-full px-4 py-3 rounded-xl border border-card-border bg-background/55 text-foreground placeholder-foreground/35 focus:outline-none focus:border-primary focus:bg-background/80 transition-all duration-200 text-sm"
                     />
                   </div>
@@ -224,7 +224,7 @@ export default function Contact() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="sriram@swiftproject.in"
+                      placeholder="kandsagar2006@gmail.com"
                       className="w-full px-4 py-3 rounded-xl border border-card-border bg-background/55 text-foreground placeholder-foreground/35 focus:outline-none focus:border-primary focus:bg-background/80 transition-all duration-200 text-sm"
                     />
                   </div>
@@ -259,7 +259,7 @@ export default function Contact() {
                     rows={5}
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Hi Sriram, I would love to talk about building..."
+                    placeholder="Hi Sagar, I would love to talk about building..."
                     className="w-full px-4 py-3 rounded-xl border border-card-border bg-background/55 text-foreground placeholder-foreground/35 focus:outline-none focus:border-primary focus:bg-background/80 transition-all duration-200 text-sm resize-none"
                   />
                 </div>

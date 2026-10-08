@@ -2,9 +2,9 @@
 
 import React from "react";
 import { ArrowRight, FileText } from "lucide-react";
-import DecryptedText from "./ui/DecryptedText";
+import MatrixText from "./ui/MatrixText";
 import ShinyText from "./ui/ShinyText";
-import Lightfall from "./ui/Lightfall";
+import ASMRStaticBackground from "./ui/ASMRStaticBackground";
 import { scrollToSection } from "@/lib/scroll";
 import { useTheme } from "./ThemeProvider";
 
@@ -35,28 +35,9 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-32 sm:pt-36 md:pt-28 pb-12 sm:pb-16"
     >
-      {/* Background Lightfall Rain Animation */}
+      {/* Background ASMR Static Animation */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <Lightfall
-          colors={isDark ? DARK_FALLING_COLORS : LIGHT_FALLING_COLORS}
-          backgroundColor={isDark ? "#000000" : "#faf8f5"}
-          speed={isMobile ? 0.45 : 0.35}
-          streakCount={isMobile ? 5 : 2}
-          streakWidth={isMobile ? 1.25 : 0.85}
-          streakLength={isMobile ? 1.1 : 0.9}
-          glow={isMobile ? 0.95 : 0.65}
-          density={isMobile ? 0.55 : 0.35}
-          twinkle={0.35}
-          zoom={isMobile ? 1.9 : 2.2}
-          backgroundGlow={0}
-          opacity={isDark ? (isMobile ? 0.85 : 0.65) : (isMobile ? 0.75 : 0.55)}
-          mouseInteraction={true}
-          mouseStrength={0.4}
-          mouseRadius={0.45}
-          mouseDampening={0.15}
-          lightMode={!isDark}
-          dpr={isMobile ? 1.0 : 1.25}
-        />
+        <ASMRStaticBackground />
       </div>
 
       {/* Decorative Gradients for Visual Glow */}
@@ -74,28 +55,22 @@ export default function Hero() {
           Hello, I'm
         </p>
 
-        {/* Main Name Header with DecryptedText animation */}
-        <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl font-black tracking-tight mb-6">
+        {/* Main Name Header with MatrixText animation */}
+        <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl font-black tracking-tight mb-6 flex gap-4 flex-wrap justify-center">
           <span className="inline-block whitespace-nowrap">
-            <DecryptedText
+            <MatrixText
               text="Sagar"
-              animateOn="view"
-              speed={40}
-              maxIterations={15}
-              className="text-foreground"
-            />
-          </span>{" "}
-          <span className="inline-block whitespace-nowrap">
-            <DecryptedText
-              text="Kanda"
-              animateOn="view"
-              speed={40}
-              maxIterations={15}
               className="text-foreground"
             />
           </span>
+          <span className="inline-block whitespace-nowrap">
+            <MatrixText
+              text="Kanda"
+              className="text-foreground"
+              initialDelay={400}
+            />
+          </span>
         </h1>
-
         {/* Role Subheader with ShinyText animation */}
         <h2 className="text-xl md:text-3xl font-medium tracking-tight mb-8">
           <ShinyText
@@ -125,7 +100,7 @@ export default function Hero() {
             <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
           </a>
           <a
-            href={process.env.NEXT_PUBLIC_RESUME_URL || "#"}
+            href="https://drive.google.com/file/d/1WtHyJJI6WwQDbcjNgl0JNIP8WJ8pyPcT/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-xl border border-card-border bg-card/80 backdrop-blur-sm text-foreground text-sm font-semibold tracking-wide hover:bg-foreground/5 transition-all duration-300 hover:scale-102 hover:shadow-md"

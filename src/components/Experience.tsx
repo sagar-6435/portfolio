@@ -18,32 +18,32 @@ export default function Experience() {
   const experiences: ExperienceItem[] = [
     {
       id: 1,
-      company: "Saptarishi Solutions Pvt. Ltd.",
-      role: "Full Stack Developer",
-      location: "Miyapur, Hyderabad, India",
-      duration: "Oct 2025 - Present",
+      company: "MSR Research Labs Ltd. ",
+      role: "Flutter Developer",
+      location: "Uppal, Hyderabad, India",
+      duration: "Sep 2026 - Present",
       description:
         "Leading the end-to-end design, development, and delivery of production-ready enterprise applications, including an HRMS platform, LMA, and Data Migration Dashboards. Managing backend services, real-time data flows, and tech stacks (Next.js, Redux, PostgreSQL). Overseeing PR checks and coding rules to maintain quality across development pipelines.",
-      logo: "/images/saptarishi.png",
+      logo: "/images/MSR.png",
     },
     {
       id: 2,
-      company: "Sumeru Technology Solutions Pvt. Ltd.",
-      role: "Engineering Intern",
-      location: "Bengaluru, Karnataka, India",
-      duration: "Dec 2024 - Oct 2025",
+      company: "Smart India Hackathon",
+      role: "Participant",
+      location: "Online",
+      duration: "Sep 2025",
       description:
-        "Contributed to building, debugging, and testing responsive web applications using Next.js and Supabase. Developed dynamic page modules, managed serverless backend queries, and implemented error handling validations with Zod to improve platform stability.",
-      logo: "/images/sumeru.jpg",
+        "Participated in Smart India Hackathon 2025 with a project focusing on Jharkhand Tourism and it was selected for College Level.",
+      logo: "/images/SIH.png",
     },
     {
       id: 3,
       company: "Vedic Vision Hackathon",
-      role: "Full Stack Mentor",
+      role: "Participant",
       location: "Bhimavaram, Andhra Pradesh, India",
-      duration: "Aug 2024",
+      duration: "Aug 2025",
       description:
-        "Mentored participating teams through the full development cycle of hackathon submissions. Provided technical guidance on stack architectures (React, Node.js, MongoDB), helped debug integration bottlenecks, and advised on database scaling and clean UI structures.",
+        "Participated in a hackathon and built a project that qualified for second level.",
       logo: "/images/SRKREC.jpeg",
     },
     {
@@ -51,7 +51,7 @@ export default function Experience() {
       company: "Freelancing & Consulting",
       role: "Freelance Full Stack Developer",
       location: "Remote",
-      duration: "Jan 2024 - Present",
+      duration: "Jan 2025 - Present",
       description:
         "Accepting freelance projects, designing client websites, full-stack tools, custom platforms, and custom business management solutions. Architecting bespoke platforms to resolve specific company workflow blockages.",
       logo: "/images/freelancer.png",
