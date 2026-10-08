@@ -194,7 +194,7 @@ export default function Projects() {
     },
   ];
 
-  const categories = ["All", "Web Apps", "Tools","Mobile Applications"];
+  const categories = ["All", "Web Apps","Mobile Applications"];
 
   const filteredProjects =
     activeCategory === "All"
